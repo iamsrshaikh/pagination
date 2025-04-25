@@ -1,0 +1,48 @@
+.container {
+  max-width: 300px;
+  border: 1px solid #ccc;
+  background-color: #f5f9fe;
+  border-radius: 10px;
+}
+
+.thumbNail {
+  padding: 8px 16px;
+  > img {
+    width: fit-content;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+  }
+}
+
+.title {
+  font-size: 20px;
+  color: #101010;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: #f0d8ec;
+  padding: 8px 16px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.others {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description {
+  color: rgba(21, 14, 14, 0.7);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+  position: static;
+  bottom: 20px;
+}
